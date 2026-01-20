@@ -1,62 +1,39 @@
-# Mindory
+<div align="center">
+  <h1>Mindory</h1>
+  <h3>Open a book, enter a world, let imagination talk back!</h3>
+</div>
 
-**Your personal long-term memory system for thinking, reading, and research.**
-Read once. Remember forever.
+## Overview
 
----
+Mindory harnesses large language models to make reading interactive and delightful.  
+Ask questions to your books, explore characters, or even converse with the story—turning reading into a vivid, AI-powered journey.
 
-## What is Mindory?
+## Key Features
 
-Mindory turns documents into a searchable, structured memory that works *with* you, not against you.
-Designed for **books, long texts, and deep thinking** workflows.
+- **Chinese-friendly**: Full support for Chinese text processing from segmentation to embedding  
+- **Order-based authoritative RAG**: Accurate recall, avoiding bias from implicit rearrangement  
+- **Observability-first**: Built-in RAG Trace for debugging, evaluation, and productization  
+- **Engineering-oriented**: Clear crate boundaries, error layering, and state management
 
-* Local-first & private
-* Book-centric ingestion
-* Incremental semantic memory
-* Context-aware search & QA
-* Desktop app (Tauri)
+## RAG Pipeline
 
----
+| Scene | Mindory Does |
+| -- | -- |
+| Question | Ask questions to the book in natural language |
+| Recall | Retrieve the most relevant text snippets |
+| Understand | Completes context automatically to avoid misinterpretation |
+| Generate | Generates answers based on real book content |
+| Explain | Shows cited content in the answer |
 
-## Quick Start
+## Roadmap
 
-1. Install Mindory from [Releases](./docs/install.md)
-2. Add a document (TXT, EPUB, PDF planned)
-3. Wait for ingestion
-4. Ask questions and explore your knowledge
+- Multi-document support (TXT, PDF, EPUB)  
+- Multi Vector Store / Multi Embedding model  
+- RAG Trace visualization (Timeline / Rank / Context Diff)
 
----
+## How to Contribute
 
-## Current Status
-
-* Core ingestion pipeline: **stable**
-* Desktop app: **usable**
-* Formats & features: **expanding**
-
-Roadmap: PDF support, cross-book reasoning, advanced memory management.
-
----
-
-## Feedback & Issues
-
-Use GitHub Issues for:
-
-* Bugs
-* Feature requests
-* Usage feedback
-
----
-
-## License
-
-Documentation and binaries only; core implementation is private.
-
----
-
-## Contact
-
-📧 **[1843657913@qq.com](mailto:1843657913@qq.com)**
-
----
-
-> Mindory helps you **remember**, not just store information.
+This is the **public-facing repository**:  
+- Browse technical docs and examples  
+- Submit issues or feature requests  
+- Follow the roadmap for upcoming enhancements
