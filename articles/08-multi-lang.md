@@ -79,8 +79,8 @@ Instead, Mindory adopts **small, language-specific embedding models**.
 
 ### Current choices
 
-- `Xenova/bge-small-zh-v1.5` — Chinese books
-- `Xenova/bge-small-en-v1.5` — English books
+- `BAAI/bge-small-zh-v1.5` — Chinese books
+- `BAAI/bge-small-en-v1.5` — English books
 
 These models:
 

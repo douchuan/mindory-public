@@ -50,8 +50,8 @@ Mindory 的定位是**本地优先的 AI 系统**，这意味着：
 因此 Mindory 选择**轻量、语言专属的嵌入模型**。
 
 ### 当前选型
-- `Xenova/bge-small-zh-v1.5` — 中文书籍
-- `Xenova/bge-small-en-v1.5` — 英文书籍
+- `BAAI/bge-small-zh-v1.5` — 中文书籍
+- `BAAI/bge-small-en-v1.5` — 英文书籍
 
 这些模型的优势：
 - 可在 CPU 上稳定运行
