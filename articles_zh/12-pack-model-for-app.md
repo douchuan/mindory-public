@@ -191,10 +191,10 @@ async fn ensure_models_installed_impl(
 ## 总结
 将嵌入模型直接打包到 Tauri 应用中，能大幅提升应用的可靠性和用户体验。只要结合这几点：
 
-* 适配 `fastembed-rs` 的缓存目录结构；
-* 异步安装流程；
-* 基于 SHA256 的版本管控；
-* 用 GNU tar 实现确定性打包。
+* 适配 `fastembed-rs` 的缓存目录结构
+* 异步安装流程
+* 基于 SHA256 的版本管控
+* 用 GNU tar 实现确定性打包
 
 就能打造出一款健壮、支持离线使用的 RAG 桌面应用。
 
