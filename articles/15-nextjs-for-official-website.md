@@ -133,7 +133,7 @@ Mindory is an AI-powered exploratory reading product. Its official website neede
 
 We chose:
 
-> **Next.js 14 + TypeScript + Tailwind CSS**
+> **Next.js 16 + TypeScript + Tailwind CSS**
 
 Here’s why.
 
