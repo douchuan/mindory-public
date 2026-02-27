@@ -8,6 +8,8 @@
 Mindory harnesses large language models to make reading interactive and delightful.  
 Ask questions to your books, explore characters, or even converse with the story—turning reading into a vivid, AI-powered journey.
 
+[Website](https://mindory.cn)
+
 ## Key Features
 
 - **Chinese-friendly**: Full support for Chinese text processing from segmentation to embedding  
