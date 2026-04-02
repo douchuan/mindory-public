@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mysql-master:
+    image: mysql:lts
+    container_name: mysql-master
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./master/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - "3307:3306"
+
+  mysql-slave1:
+    image: mysql:lts
+    container_name: mysql-slave1
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./slave1/my.cnf:/etc/mysql/conf.d/my.cnf
+    ports:
+      - "3308:3306"
+    depends_on:
+      - mysql-master
